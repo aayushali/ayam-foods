@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <>
       <section>
-        <container className="grid grid-cols-3  h-screen my-20">
+        <div className="grid grid-cols-3  h-screen my-20">
           <div
             className="left-image"
             style={{
@@ -78,7 +78,7 @@ const Hero = () => {
               />
             </div>
           </div>
-        </container>
+        </div>
       </section>
     </>
   );
